@@ -8,7 +8,7 @@
 require 'faker'
 
 s1 = Student.create(name: Faker::Name.name, img_url: Faker::Avatar.image, github_url: Faker::Internet.email, graduated: true)
-p1 = Project.create(title: Faker::App.name, live_url: 'www.example-url.com', repo_url: 'www.example-repo.com')
+p1 = Project.create(title: Faker::App.name, live_url: 'www.example-url.com', frontend_repo: 'www.example-frontend-repo.com', backend_repo: 'www.example-backend-repo.com')
 Contribution.create(project: p1, student: s1)
 
 40.times do
@@ -20,7 +20,7 @@ end
 end
 
 30.times do
-    Project.create(title: Faker::App.name, live_url: 'www.example-url.com', repo_url: 'www.example-repo.com')
+    Project.create(title: Faker::App.name, live_url: 'www.example-url.com', frontend_repo: 'www.example-frontend-repo.com', backend_repo: 'www.example-backend-repo.com')
 end
 
 Project.all.each do |proj|
