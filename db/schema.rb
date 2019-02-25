@@ -24,16 +24,19 @@ ActiveRecord::Schema.define(version: 2019_02_04_231738) do
 
   create_table "projects", force: :cascade do |t|
     t.string "title"
-    t.string "live_url"
-    t.string "repo_url"
     t.string "slug"
+    t.string "img_url"
+    t.string "live_url"
+    t.string "frontend_repo"
+    t.string "backend_repo"
   end
 
   create_table "students", force: :cascade do |t|
-    t.string "name"
-    t.string "img_url"
-    t.string "github_url"
+    t.string "first_name"
+    t.string "last_name"
     t.string "slug"
+    t.string "img_url"
+    t.string "github_username"
     t.boolean "graduated"
   end
 

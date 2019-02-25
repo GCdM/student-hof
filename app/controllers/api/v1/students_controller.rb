@@ -7,37 +7,40 @@ class Api::V1::StudentsController < ApplicationController
         render json: @students
     end
 
-    def create
-        @student = Student.create(student_params(:name, :img_url, :github_url, :graduated))
+    # def create
+    #     @student = Student.create(student_params(:name, :img_url, :github_url, :graduated))
 
-        if @student.valid? 
-            render json: @student
-        else
-            render json: { error: "Could not create student", errors: @student.errors.full_messages}
-        end
-    end
+    #     if @student.valid? 
+    #         render json: @student
+    #     else
+    #         render json: { error: "Could not create student", errors: @student.errors.full_messages}
+    #     end
+    # end
 
     def show
-
-        render json: @student
-    end
-
-    def edit
-        render json: @student
-    end
-
-    def update
-        @student.update( student_params(:name, :img_url, :github_url, :graduated) )
-
-        if student_params(:name)
-            @student.generate_slug
+        if @student
+            render json: @student
+        else
+            render json: { error: "Could not find student" }
         end
-        render json: @student
     end
 
-    def destroy
+    # def edit
+    #     render json: @student
+    # end
 
-    end
+    # def update
+    #     @student.update( student_params(:name, :img_url, :github_url, :graduated) )
+
+    #     if student_params(:name)
+    #         @student.generate_slug
+    #     end
+    #     render json: @student
+    # end
+
+    # def destroy
+
+    # end
 
     private
     

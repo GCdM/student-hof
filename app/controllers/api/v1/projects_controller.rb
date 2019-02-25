@@ -7,9 +7,9 @@ class Api::V1::ProjectsController < ApplicationController
         render json: @projects
     end
 
-    def create
+    # def create
 
-    end
+    # end
 
     def show
         if @project
@@ -38,7 +38,6 @@ class Api::V1::ProjectsController < ApplicationController
     end
 
     def set_project
-        # HOW TO AUTHORISE WHO EDITS/DESTROYS IT
         @project = Project.find_by_slug(params[:slug])
     end
 
