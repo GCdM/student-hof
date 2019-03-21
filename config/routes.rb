@@ -18,6 +18,8 @@ Rails.application.routes.draw do
       # get 'projects/:slug/edit', to: 'projects#edit'
       # patch 'projects/:slug', to: 'projects#update'
       # delete 'projects/:slug', to: 'projects#destroy'
+      
+      post 'admin', to: 'administrator#authenticate'
     end
   end
   
