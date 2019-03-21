@@ -4,6 +4,10 @@ class Student < ApplicationRecord
 
     after_initialize :generate_slug, if: :new_record?
 
+    def full_name
+        self.first_name + " " + self.last_name
+    end
+
     def generate_slug
         new_slug = self.base_slug
         duplicates = Student.find_by_baseslug(new_slug)
@@ -17,7 +21,7 @@ class Student < ApplicationRecord
     end
 
     def base_slug
-        self.name.strip.downcase.gsub(/\W+/, '-')
+        self.full_name.strip.downcase.gsub(/\W+/, '-')
     end
 
     def self.find_by_slug(search_slug)

@@ -1,0 +1,112 @@
+{
+  "students": [
+    {
+      "name": "Nicolas Marcora",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UBX40CZGS-a533d48a48f1-1024",
+      "graduated": false,
+      "slug": "nicolas-marcora"
+    },
+    {
+      "name": "Gabriel Miranda",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UE322D1BQ-54bf28a083f5-1024",
+      "graduated": true,
+      "slug": "gabriel-miranda"
+    },
+    {
+      "name": "Ben Miller",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UDVQKKXMZ-b8f375657ddf-1024",
+      "graduated": false,
+      "slug": "ben-miller"
+    },
+    {
+      "name": "Sam Barker",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UBZF7EG2H-a2cadd2a1f2d-1024",
+      "graduated": true,
+      "slug": "sam-barker"
+    },
+    {
+      "name": "Oliver Beach",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UAMN4PC93-205bf98742a9-1024",
+      "graduated": false,
+      "slug": "oliver-beach"
+    },
+    {
+      "name": "Lucy Mitchell",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UCZ7Z9B6H-33f4e108c67f-1024",
+      "graduated": true,
+      "slug": "lucy-mitchell"
+    },
+    {
+      "name": "Guy Bennett-Jones",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UDYCUG0AC-44fedb595b2d-1024",
+      "graduated": false,
+      "slug": "guy-bennett-jones"
+    },
+    {
+      "name": "Wachira Ndaiga",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UD364188K-09ccc895bccc-1024",
+      "graduated": true,
+      "slug": "wachira-ndaiga"
+    },
+    {
+      "name": "Vasile Cojusco",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UDFT8PJUQ-c99875ed59f7-1024",
+      "graduated": true,
+      "slug": "vasile-cojusco"
+    },
+    {
+      "name": "Alice Casey",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UDWT9NTCN-4f431e84d76a-1024",
+      "graduated": true,
+      "slug": "alice-casey"
+    },
+    {
+      "name": "Marju Hirsh",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UCYHJPYGG-474aced626b1-1024",
+      "graduated": true,
+      "slug": "marju-hirsh"
+    },
+    {
+      "name": "Sarah Jacob",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UDVL63MNG-58608ce281fa-1024",
+      "graduated": true,
+      "slug": "sarah-jacob"
+    },
+    {
+      "name": "Jonas Haefele",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UE77QSNE8-2450cbfb3ff8-1024",
+      "graduated": true,
+      "slug": "jonas-haefele"
+    },
+    {
+      "name": "Daniel Kaczmarczyk",
+      "avatar": "https://ca.slack-edge.com/T02FZRG24-UB72P82EM-4181f766668a-1024",
+      "graduated": true,
+      "slug": "daniel-kaczmarczyk"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Hearth Stone Card Generator",
+      "slug": "hearth-stone-card-generator",
+      "screenshot": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5b5f94b373f2cf234bfa29ce/screenshot.png",
+      "url": "",
+      "frontend_repo": "",
+      "backend_repo": "",
+      "students": [
+        
+      ]
+    },
+    {
+      "title": "Something Something",
+      "slug": "something-something",
+      "screenshot": "https://cdn.dribbble.com/users/1165321/screenshots/5948047/47-edited_4x.png",
+      "url": "",
+      "frontend_repo": "",
+      "backend_repo": "",
+      "students": [
+        
+      ]
+    }
+  ]
+}
